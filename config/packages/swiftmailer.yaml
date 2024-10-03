@@ -1,0 +1,15 @@
+swiftmailer:
+    default_mailer: Moopens
+    mailers:
+        Moopens:
+            transport: smtp
+            username: service@sunsenz.com
+            password: c2VydmljZW1haWxAbW9vcGVucw==
+            host: mail.sunsenz.com
+            port: 465
+            encryption: ssl
+            auth_mode: login
+            sender_address: 
+            delivery_addresses: ['']
+            disable_delivery: false
+
